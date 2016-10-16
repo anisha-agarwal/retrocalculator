@@ -74,6 +74,8 @@ class ViewController: UIViewController {
     @IBAction func clearBtnPressed(_ sender: AnyObject) {
         playSound()
         outputLbl.text = "0"
+        leftValStr = "0"
+        result = "0"
     }
     
     func playSound() {
